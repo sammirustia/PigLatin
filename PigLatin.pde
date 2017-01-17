@@ -38,6 +38,12 @@ public String pigLatin(String sWord)
 	{
 		return sWord + "way";
 	}
+	if(sWord.substring(0,2).equals("qu"))
+	{
+		String newS = sWord.substring(2,sWord.length());
+		return newS + "quay";
+	}
+	if()
 	else
 	{
 		return "ERROR!";
